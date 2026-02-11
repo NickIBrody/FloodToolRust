@@ -18,5 +18,22 @@ You are NOT allowed to use it against any network, device, server, or IP address
 Using this tool (or any similar tool) without authorization is illegal in most countries (computer fraud/abuse acts, unauthorized access, DoS laws, etc.) and can land you in serious legal trouble.
 The author assumes ZERO responsibility for any misuse, damage, downtime, legal consequences, broken friendships, angry parents, police visits, or fried routers caused by this code.
 Use at your own risk. Test only your own stuff. Be smart.
+
+## Quick Start – How to Clone & Run
+
+`bash
+# 1. Clone the repository
+git clone https://github.com/NickIBrody/FloodToolRust.git
+cd FloodToolRust
+# 2. Installing Rust
+pkg update
+pkg install rust
+# 3. launch
+cargo run --release -- your.router.IP 0 32 0
+
+
+# What is my IP address?
+ip route show | grep default
+
 # License
  MIT
