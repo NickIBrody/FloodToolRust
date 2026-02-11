@@ -21,7 +21,6 @@ Use at your own risk. Test only your own stuff. Be smart.
 
 ## Quick Start – How to Clone & Run
 
-`bash
 # 1. Clone the repository
 git clone https://github.com/NickIBrody/FloodToolRust.git
 cd FloodToolRust
