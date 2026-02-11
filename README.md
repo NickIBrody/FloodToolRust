@@ -12,6 +12,8 @@ Built-in random payload generation
 Clean Ctrl+C handling
 Runs blazing fast even on low-end hardware (tested on phone via Termux — 150k+ pps easy)
 Perfect for learning about network protocols, DoS mechanics, or just fucking around with your own gear.
+![work](screenshots/image.png)
+
 # Important – Read this shit carefully:
 This tool is released STRICTLY FOR EDUCATIONAL AND PERSONAL TESTING PURPOSES ONLY.
 You are NOT allowed to use it against any network, device, server, or IP address that you do NOT own or have explicit written permission to test.
